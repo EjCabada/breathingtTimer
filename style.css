@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+  transition: background-color 2.5s ease;
+  background-color: rgb(246, 251, 255);
+  /* Smooth color transition */
+}
+
+#title {
+  font-size: 5em;
+  font-weight: 500;
+  letter-spacing: .4rem;
+  text-align: center;
+}
+
+.timer {
+  font-size: 3em;
+  margin-bottom: 20px;
+  padding: 1em 0em;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  font-size: 1em;
+  border-radius: 15px;
+  cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+  }
+
+
+.mainCard {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4em;
+  margin: 0em;
+  border-radius: 25px;
+  box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+  transition: 0s;
+}
+
+#cycles {
+  font-size: 1em;
+    margin-bottom: 20px;
+    padding: 1em 0em;
+}
+
+
+#start {
+  background-color: green;
+  color: white;
+}
+#start:hover {
+  background-color: rgb(0, 111, 0);
+}
+
+
+#pause {
+  background-color: rgb(255, 242, 0);
+}
+#pause:hover {
+  background-color: rgb(234, 223, 0);
+}
+
+#stop {
+  background-color: red;
+  color: white;
+}
+#stop:hover {
+  background-color: rgb(219, 0, 0);
+}
+
+.button-area {
+  flex-direction: row;
+}
+
+#test {
+  background-color: rgb(255, 255, 202);
+  color: rgb(205, 255, 205);
+}
+
+.card {
+    background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1em 8em;
+      margin: 1em;
+      border-radius: 15px;
+      box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+
+}
+
+.card:hover {
+  background-color: rgb(237, 237, 237);
+        transition: 1s;
+}
+
+.card.active {
+  background-color: rgb(220, 220, 220);
+  /* Slightly darker background for active state */
+}
