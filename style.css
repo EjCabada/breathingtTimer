@@ -109,3 +109,22 @@ button {
   background-color: rgb(220, 220, 220);
   /* Slightly darker background for active state */
 }
+
+@media (max-width: 1000px) {
+
+  /* Increase font size for specific elements */
+  #title {
+    font-size: calc(5em + 1rem);
+    /* Add 1.5rem to base size */
+  }
+
+  .timer {
+    font-size: calc(3em + 2rem);
+    /* Add 1rem to base size */
+  }
+
+  button {
+    font-size: calc(1em + 1.5rem);
+    /* Add 0.5rem to base size */
+  }
+}
