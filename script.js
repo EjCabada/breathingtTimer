@@ -25,7 +25,7 @@ cards.forEach(card => {
     } else if (card.id === "longHold") {
       activeInterval = { breath: 18, hold: 20 };
     } else if (card.id === "shortHold") {
-      activeInterval = { breath: 10, hold: 10 };
+      activeInterval = { breath: 15, hold: 10 };
     }
 
 
